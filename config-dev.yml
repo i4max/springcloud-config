@@ -25,6 +25,7 @@ spring:
           predicates:
             - Path=/guoji
             - After=2020-02-05T15:10:03.685+08:00[Asia/Shanghai]
+            - version: 1.0
 
 eureka:
   instance:
